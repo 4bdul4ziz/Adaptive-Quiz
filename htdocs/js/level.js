@@ -388,7 +388,7 @@ function next(questionLevel) {
     
     console.log(points);
     sessionStorage.setItem("points", points);
-  } else
+  } elsesed
   {
     if(qLevelIndex > 0){
       qLevelIndex--;
@@ -436,3 +436,4 @@ function toggleActive() {
     };
   }
 }
+
