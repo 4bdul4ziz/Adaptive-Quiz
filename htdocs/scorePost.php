@@ -1,9 +1,9 @@
 <?php
 include 'dbconfig.php';
 
-$points = $_POST['points'];
+$points = $_POST['data'];
 
-$resq = "INSERT INTO points (points) VALUES ('$points')";
-$sql = mysqli_query($conn, $resq);
+$resq = "INSERT INTO board VALUES ('$points')";
+mysqli_query($conn, $resq);
 
 ?>
