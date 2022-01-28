@@ -4,7 +4,7 @@ function submitForm(e) {
   
     sessionStorage.setItem("name", name);
   
-    location.href = "quiz.html";
+    location.href = "quiz.php";
   }
 
   
