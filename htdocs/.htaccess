@@ -1,0 +1,5 @@
+DirectoryIndex index.php login.php
+
+ErrorDocument 403 https://infinityfree.net/errors/403/
+ErrorDocument 404 https://infinityfree.net/errors/404/
+ErrorDocument 500 https://infinityfree.net/errors/500/
