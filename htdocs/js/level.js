@@ -403,17 +403,7 @@ function next(questionLevel) {
   // if the question is last then redirect to final page
   if (question_count == 10) {
     sessionStorage.setItem("time", time);
-    location.href = "./end.php";
-
-  $.ajax({
-  url: "./scorePost.php",
-  type: "POST",
-  data: points,
-  success: function (data) {
-    console.log(data);
-  }
-
-})
+    location.href = "./end.html";
 
   }
 }
