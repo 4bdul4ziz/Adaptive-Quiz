@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>
+            Welcome to Quiz
+        </title>
+        <link rel="stylesheet" href="./css/styleWelcome.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="welcome_text">
+                <img src="./logo.png" alt="">
+                <h1>Welcomes you to this Quiz!</h1>
+                <div class="instructions">
+                    <h4>Instructions for this quiz</h4>
+                    <ol>
+                        <li>There are total 10 questions.</li>
+                        <li>You will be given 10 minutes to solve all the questions.</li>
+                        <li>There is no negative marking.</li>
+                        <li>You cannot move to previous question.</li>
+                        <li>It is compulsory to attempt each and every question.</li>
+                        <li>Read the questions carefully.</li>
+                    </ol>
+                </div>
+                <form class="welcome_form" name="welcome_form" onsubmit="submitForm(event)">
+                    <input type="text" name="name" placeholder="Enter your name">
+                    <button type="submit" >Start Quiz</button>
+                </form>
+            </div>
+        </div>
+        <script src="./js/store.js"></script>
+    </body>
+</html>
