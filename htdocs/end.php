@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./css/endPage.css">
 </head>
 <body>
+    <?php
+    include 'dbconfig.php';
+    ?>
     <div class="wrapper">
         <div class="result">
            <i class="fas fa-award award_icon"></i>
