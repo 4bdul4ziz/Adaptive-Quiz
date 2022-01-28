@@ -16,9 +16,9 @@
     <div class="wrapper">
         <div class="result">
            <i class="fas fa-award award_icon"></i>
-           <h3 class="username">Well Done! <span <?php echo $_REQUEST['name']; ?> </span></h3>
-           <p class="userpoints">Your Points:  <span class="points"></span></p>
-         <p class="usertime"> Time left:  <span class="time_left"></span></p>
+           <h3 class="username">You've reached the end of this quiz. We will send the result over to your e-mail soon! </h3>
+<!--            <p class="userpoints">Your Points:  <span class="points"></span></p>
+         <p class="usertime"> Time left:  <span class="time_left"></span></p> -->
         </div>
     </div>
     <script src="https://kit.fontawesome.com/d56261bbb9.js"></script>
