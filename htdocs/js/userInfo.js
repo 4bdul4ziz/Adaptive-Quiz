@@ -5,3 +5,12 @@ document.querySelector("span.name").innerHTML = user_name;
 document.querySelector("span.points").innerHTML = user_points;
 document.querySelector("span.time_left").innerHTML = user_time;
 
+/* $.ajax({
+url: "./scorePost.php",
+type: "POST",
+data: user_points,
+success: function (data) {
+console.log(data);
+}
+
+}) */
