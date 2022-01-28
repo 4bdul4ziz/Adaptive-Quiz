@@ -15,7 +15,6 @@ if ($conn === false) {
 $name = $_REQUEST['name'];
 $email = $_REQUEST['email'];
 $phone = $_REQUEST['phone'];
-$points = $_REQUEST['points'];
-
-
+/* $points = $_REQUEST['points'];
+ */
 ?>
