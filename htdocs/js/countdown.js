@@ -13,5 +13,5 @@ function updateCountdown(){
     countdown.innerHTML = `${minutes}:${seconds}`;
     time--;
     if(time == 0)
-    location.href = "./end.html";;
+    location.href = "./end.php";;
 }
