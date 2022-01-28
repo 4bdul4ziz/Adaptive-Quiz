@@ -341,7 +341,6 @@ let answers = {
   ],
 };
 
-
 let question_count = 0;
 let points = 0;
 let questionPoints={
@@ -388,7 +387,7 @@ function next(questionLevel) {
     
     console.log(points);
     sessionStorage.setItem("points", points);
-  } elsesed
+  } else
   {
     if(qLevelIndex > 0){
       qLevelIndex--;
@@ -405,6 +404,17 @@ function next(questionLevel) {
   if (question_count == 10) {
     sessionStorage.setItem("time", time);
     location.href = "./end.php";
+
+  $.ajax({
+  url: "./scorePost.php",
+  type: "POST",
+  data: points,
+  success: function (data) {
+    console.log(data);
+  }
+
+})
+
   }
 }
 
@@ -436,4 +446,3 @@ function toggleActive() {
     };
   }
 }
-
